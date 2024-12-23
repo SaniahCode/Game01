@@ -1,0 +1,32 @@
+body {
+    padding: 0;
+    margin: 0;
+    background-image: url(images/img1.jpg); 
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.head {
+    color: rgb(29, 44, 5);
+    margin: 50px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+input {
+    background-color: rgb(209, 214, 200);
+    height: 45px;
+    width: 160px;
+    font-size: large;
+    font-weight: 700;
+    color: rgb(13, 20, 3);
+    border: solid rgb(36, 56, 4);
+    border-radius: 10px;
+   
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 100px;
+}
